@@ -1,4 +1,4 @@
-# Script em python para Shield LoRaWAN Raspberry Pi (desenvolvido por [Fox IoT](http://foxiot.com.br/))
+# Script em python para [Shield LoRaWAN Raspberry Pi](https://github.com/fox-iot/Send_CPU_Rpi_LoRaWAN_Shield_Fox/blob/main/doc/Shield_Lora_Foxiot.pdf) (desenvolvido por [Fox IoT](http://foxiot.com.br))
 
 Esse Script proporciona interface entre hardware e software, composta por um chip LoRa [RFM95](http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf)
 operando na frequência de 915 MHz e três LEDs indicadores, sendo um de cor verde que indica power on e dois vermelhos de uso geral podendo ser configurados para indicar algum tipo de status do sistema.
@@ -13,7 +13,7 @@ operando na frequência de 915 MHz e três LEDs indicadores, sendo um de cor ver
 
 ## Mapeamento de hardware
 
-O mapeamento completo de pinos da WiringPi pode ser visto [aqui](https://github.com/lucasmaziero/lmic-rpi-fox/blob/master/Raspberry%20Pi%20GPIO%20Pins.png)
+O mapeamento completo de pinos da WiringPi pode ser visto [aqui](https://github.com/fox-iot/Send_CPU_Rpi_LoRaWAN_Shield_Fox/blob/main/doc/Raspberry%20Pi%20GPIO%20Pins.png)
 
 WiringPi 0 == Reset
   
