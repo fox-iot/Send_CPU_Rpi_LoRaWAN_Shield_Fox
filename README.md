@@ -13,27 +13,27 @@ operando na frequência de 915 MHz e três LEDs indicadores, sendo um de cor ver
 
 ## Mapeamento de hardware
 
-O mapeamento completo de pinos da WiringPi pode ser visto [aqui](https://github.com/fox-iot/Send_CPU_Rpi_LoRaWAN_Shield_Fox/blob/main/doc/Raspberry%20Pi%20GPIO%20Pins.png)
+O mapeamento completo de pinos da BCM pode ser visto [aqui](https://github.com/fox-iot/Send_CPU_Rpi_LoRaWAN_Shield_Fox/blob/main/doc/Raspberry%20Pi%20GPIO%20Pins.png)
 
-WiringPi 0 == Reset
-  
-WiringPi 4 == DIO0
+BCM 17 == Reset
 
-WiringPi 5 == DIO1
+BCM 23 == DIO0
 
-WiringPi 1 == DIO2 (Não utilizado)
-  
-WiringPi 12 == MOSI
-  
-WiringPi 13 == MISO
-  
-WiringPi 14 == SCK
+BCM 24 == DIO1
 
-WiringPi 6 == SS
+BCM 18 == DIO2 (Não utilizado)
 
-WiringPi 2 == LED1
+BCM 10 == MOSI
 
-WiringPi 3 == LED2
+BCM 9 == MISO
+
+BCM 11 == SCK
+
+BCM 25 == SS
+
+BCM 27 == LED1
+
+BCM 22 == LED2
   
 GND  == GND
   
